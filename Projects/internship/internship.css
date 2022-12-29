@@ -1,0 +1,59 @@
+body{
+    background-color: #cb517a;
+    font-family: 'Open Sans' , sans-serif;
+}
+
+header{
+    font-size: 50px;
+    text-align: center;
+}
+
+main{
+    border-radius: 1cm;
+    background-color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    margin: 1% 25%;
+}
+
+
+button{
+    position: relative;
+    font-size: 25px;
+    left: 30%;
+    height: 50px;
+    width: 200px;
+    border-radius: 5cm;
+    background-color: #00A170;
+}
+
+input[type="text"],input[type="email"],input[type="number"] ,#profession{
+    margin-top: 10px;
+    font-size: 20px;
+    height: 10%;
+    width: 80%;
+    border: 1px solid #000;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+}
+
+
+
+input[type="checkbox"],input[type="radio"] {
+    margin-right: 5px;
+    height: 15px;
+    width: 15px;
+    border: 2px solid #000;
+  }
+
+fieldset{
+    border: 1px solid #000;
+    border-radius: 2px;
+    width: 40rem;
+    height: 3rem;
+    padding: 10px;
+    margin: 10px;
+}
+

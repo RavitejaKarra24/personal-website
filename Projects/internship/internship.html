@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship form</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="internship.css">
+
+    <!-- icon -->
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAB9CAMAAAC4XpwXAAAAYFBMVEX///8AAACqqqolJSVLS0v09PSDg4MODg65ubnY2NjKysosLCxcXFzPz8/Hx8fs7OyKiopERERjY2M2NjYbGxvh4eHBwcGXl5dSUlKwsLB9fX2jo6NxcXEWFhYxMTE+Pj5lQOVLAAADU0lEQVRoge3b6ZKjIBAAYIniFTWaMYcTk7z/W+5mcqF2A2npdaeK/jdVZr4SFRpogiAovxLBEUmUBsZYsdD3qI06Iy6uuQHPOfX2YNA7Tj2JF3zsv0VPQpfxqX45rRxG+6EeScOFH0Xoda97/Zfou4wSOyf6ZtUXlOhPm/m6PI3HCuuoX3dA1ssjWRd2uvKMJ3r1RddfTY/qslod6tMqlYi+68l4Y7z3sm5+Euh1nMN6UFGbvqkCvS7T4nVxdIJ1maW0KAO9LrvBQ92DuouA9BEuviS3rkwnxrgQMbNevPu/KS4Er37U43+7B0Z9gF+muKgY9UgZdkBc5Hz6AF9DOGPLN+8BD8PZ3rrzVcVDGN/C+qakhOIFvfJHiuAC7G1235c1JS7Fm1RuJW0R/LauMtE3NXK1ObbA00vPyMU/nfA0u2jIupjqKXZpLEE9d5FdWOJAy3+T8ev43vcGHHjrMmp20e4+xeEvLidENWl2M87U21jifLoNzqZb4Vy6Hc6kW+I8Oo6PPgwOHcOTMc6h2+MMOoafpzikbz5eu5BEHOrnt8jv0YgyM95CuIsxrlBwbEhtawh3ML7PwOfnNlsVR/bWMHx2XjfAkQSyrccjP6oHu7qIrKNX8O5jHPriZFZZh8WkQYO7622w6ZIOd6aTcEc6PD8XmrfdoU7FnejgssgtwL7dsU7HHegoDoznzvU5+GwdxSc5nKWeHWpDdI5wQN9H2IT/Ge+Sgpk4sD5vTm3ey4DpPJySXbxXnnMsF4gt36JpdhGZ9FclCbqNYYtT9qSK52+xVMYah/Ymum3UaOK+p3G7dST/tMfhtQt9vHav4EFVxXWjK6ZbBlyqo+CyNpU60XU48R/gjHvQ5dXQ7PVjQZJFh+ZMKh5z7r/Lgx6/PRc+HVhUHOOMemXGGfXJ96bW0j0+BzZ9PBSGgzLCM13P+yM6byueSDmYtB2r4X+l111oK+7CJ/OaqSfrflo7Stb1C+SXR899/96SsIkz6L+SdX3lw+WZs6SivRQHbBSh33uB0reW3z8uk2mneU/pz70LNbXFiblAd54eVP0WD1OF7GzdQXjd6173ute97nWve93rXv+X+rLnpJY9I8YS/7m+7LnIZc+ELnseduGzwEueg/4D5nhVQ4/UV2sAAAAASUVORK5CYII=">
+</head>
+<body>
+    <header>
+        <h1> Internship form </h1>
+    </header>
+
+    <main>
+        <form action="get">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="  Enter your name" required>
+            
+            <br><br><label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="  Enter your email" required>
+
+            <br><br><label for="age">Age</label>
+            <input type="number" name="age" id="age" placeholder="  Enter your age" required>
+
+            <br><br><label for="profession">Which option best describes you?</label><br>
+            <select name="profession" id="profession" required>
+                <option value="student">Student</option>
+                <option value="full-time-job">Full time job</option>
+                <option value="full-time-learner">Full time learner</option>
+                <option value="prefer-not-to-say">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <br><br><label for="suggestion">Would you recommend our products to a friend?</label>
+            <br><br><input type="radio" name="suggestion" class="selections" value="yes" required>Yes
+            <br><br><input type="radio" name="suggestion" class="selections" value="no" required>No
+            <br><br><input type="radio" name="suggestion" class="selections" value="maybe" required>Maybe
+
+            <br><br><label for="frameworkd">Languages and Frameworks known (Check all that apply)</label><br>
+            <br><br><input type="checkbox" name="framework" class="selections" value="html">HTML
+            <br><br><input type="checkbox" name="framework" class="selections" value="css">CSS
+            <br><br><input type="checkbox" name="framework" class="selections" value="javascript">JavaScript
+            <br><br><input type="checkbox" name="framework" class="selections" value="bootstrap">Bootstrap
+            <br><br><input type="checkbox" name="framework" class="selections" value="jquery">jQuery
+            <br><br><input type="checkbox" name="framework" class="selections" value="nodejs">NodeJS
+            <br><br><input type="checkbox" name="framework" class="selections" value="reactjs">ReactJS
+            <br><br><input type="checkbox" name="framework" class="selections" value="angularjs">AngularJS
+            <br><br><input type="checkbox" name="framework" class="selections" value="php">PHP
+            <br><br><input type="checkbox" name="framework" class="selections" value="laravel">Laravel
+            <br><br><input type="checkbox" name="framework" class="selections" value="django">Django
+            <br><br><input type="checkbox" name="framework" class="selections" value="flask">Flask
+            <br><br><input type="checkbox" name="framework" class="selections" value="ruby">Ruby
+            <br><br><input type="checkbox" name="framework" class="selections" value="rails">Rails
+
+            <br><br><label for="fieldset"><pre>Write about yourself</pre></label>
+            <fieldset>
+            </fieldset>
+<br>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
