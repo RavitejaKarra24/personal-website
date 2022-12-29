@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(238, 106, 106);
+    margin: 0;
+    padding: 0;
+}
+
+#calculator{
+    border-radius: 1mm;
+    margin: auto;
+    margin-top: 10%;
+    width: 500px;
+    height: 610px;
+    background-color: #000;
+}
+input{
+    margin: 5px 0px 0px 0px;
+    border-radius: 1mm;
+    font-size: 45px;
+    width: 470px;
+    height: 95px;
+    border: none;
+}
+button{
+    border-radius: 1cm;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    color: #000;
+    font-size: 30px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 10px 10.8px;
+}
+
+fieldset{
+    margin: 10px 0px;
+    border-radius: 1%;
+    border: 0px;
+}
