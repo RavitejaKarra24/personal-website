@@ -1,0 +1,38 @@
+* {
+    font-family: Roboto;
+    font-size: 100px;
+    text-align: center;
+  }
+  
+  table,
+  td {
+    border: 5px solid black;
+    border-collapse: collapse;
+    width: 400px;
+    height: 120px;
+    margin: 0 auto;
+  }
+  
+  button {
+    border: none;
+    padding: 0 20px;
+    font-size: 50px;
+    margin-top: 50px;
+    border-radius: 1cm;
+    background-color: #00fa9a;
+  }
+  
+  button:hover {
+    box-shadow: yellow 0px 0px 10px;
+  }
+  
+  h4 {
+    margin-top: 10px;
+    color: rgb(238, 85, 30);
+    border-radius: 1cm;
+    font-size: 40px;
+  }
+
+  h1{
+    margin: 0;
+  }
