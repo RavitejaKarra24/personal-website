@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(240, 237, 237);
+}
+
+header{
+    font-size: 50px;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    font-size: 25px;
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+  background-color: #fff;   
+  border-radius: 1cm;
+}
+
+#prev-btn  , #next-btn{
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    color: rgb(75, 135, 218);
+    border: none;
+    font-size: 40px;
+    margin: 0 auto;
+    display: block;
+}
+
+#prev-btn{
+    float: left;
+    position: relative;
+    left: 35%;
+}
+
+#next-btn{
+    float: right;
+    position: relative;
+    right: 35%;
+}
+
+#random-btn{
+    position: relative;
+    /* float: bottom; */
+    margin-top: 70px;
+    font-size: medium;
+    border-radius: 1cm;
+    width: 140px;
+    height: 40px;
+    background-color: #3d93f5;
+    border: 0;
+}
+
+img{
+    margin-top: 20px;
+    width: 200px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+#name{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
+}
+
+#job{
+    color: rgb(84, 162, 235);
+    margin: 10px;
+  padding: 5px;
+}
+
+#buttons{
+    margin-top: 10px;
+}
+
+hr{
+    width: 400px;
+    height: 5px;
+    background-color: #3d93f5;
+    border-radius: 10px;
+    border: 0;
+}
+
+h1{
+    margin: 40px 0 ;
+}
+
+#info{
+    margin: 0 10px;
+    font-size: 20px;
+}
